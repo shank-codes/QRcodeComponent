@@ -1,12 +1,19 @@
 body {
   background-color: #d6e2f0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .card {
-  position: absolute;
+  /* position: absolute;
   margin: auto;
-  inset: 0;
+  inset: 0; */
 
   background-color: white;
   width: 270px;
